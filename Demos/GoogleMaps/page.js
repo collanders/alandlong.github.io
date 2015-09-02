@@ -11,8 +11,8 @@ var map1, map2;
 
 //Search by coordinates
 $("#searchCoords").on('click', function () {
-    $("#googleMap").removeClass('hide');
-    $("#googleMaps").addClass('hide');
+    $("#googleMap").css('display', 'inline-block');
+    $("#googleMaps").css('display', 'none');
     var lat = $("#lat").val();
     var lng = $("#lng").val();
     var zoom = $("#zoom").val();
@@ -40,8 +40,8 @@ $("#searchCoords").on('click', function () {
 
 //Search by converting address or name of location to coordinates
 $("#searchAddress").on('click', function () {
-    $("#googleMap").addClass('hide');
-    $("#googleMaps").removeClass('hide');
+    $("#googleMaps").css('display', 'inline-block');
+    $("#googleMap").css('display', 'none');
     var userAddress = $("#address").val();
     var zoomZoom = $("#zoomLevel").val();
     map2 = new GoogleMap();
