@@ -10,32 +10,32 @@ var addressContent = [
 var map1, map2;
 
 //Search by coordinates
-$("#searchCoords").on('click', function () {
-    $("#googleMap").css('display', 'inline-block');
-    $("#googleMaps").css('display', 'none');
-    var lat = $("#lat").val();
-    var lng = $("#lng").val();
-    var zoom = $("#zoom").val();
-    map1 = new GoogleMap();
-    //To configure with chained methods
-    map1.Latitude(lat)
-        .Longitude(lng)
-        .Zoom(zoom)
-        .MapType("ROADMAP")
-        .TargetId("googleMap")
-        .GenerateMap();
+// $("#searchCoords").on('click', function () {
+//     $("#googleMap").css('display', 'inline-block');
+//     $("#googleMaps").css('display', 'none');
+//     var lat = $("#lat").val();
+//     var lng = $("#lng").val();
+//     var zoom = $("#zoom").val();
+//     map1 = new GoogleMap();
+//     //To configure with chained methods
+//     map1.Latitude(lat)
+//         .Longitude(lng)
+//         .Zoom(zoom)
+//         .MapType("ROADMAP")
+//         .TargetId("googleMap")
+//         .GenerateMap();
     
-    //To configure with a predefined object
-    //GoogleMap.Config({
-    //    "lat":lat, 
-    //    "lng": lng, 
-    //    "zoom":zoom, 
-    //    "mapType":"ROADMAP", 
-    //    "targetId":"googleMap"
-    //}).Generate();
+//     //To configure with a predefined object
+//     //GoogleMap.Config({
+//     //    "lat":lat, 
+//     //    "lng": lng, 
+//     //    "zoom":zoom, 
+//     //    "mapType":"ROADMAP", 
+//     //    "targetId":"googleMap"
+//     //}).Generate();
 
 
-});
+// });
 
 
 //Search by converting address or name of location to coordinates
