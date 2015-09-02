@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+
+<head>
+    <title>Google Maps Demo</title>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDf4WPUEnwKcqFWl93Ma3WO75DgAXBh-3s"></script>
+    <script type="text/javascript" src="GoogleMap.js"></script>
+    <script type="text/javascript" src="page.js"></script>
+    <link rel="stylesheet" type="text/css" href="page.css">
+</head>
+
+<body>
+    <h2>Google Maps Lookup</h2>
+    <p class="inline spaced">Latitude</p>
+    <input class="spaced" type="text" id="lat" />
+    <p class="inline spaced">Longitude</p>
+    <input class="spaced" type="text" id="lng" />
+    <p class="inline spaced">Zoom Level</p>
+    <input class="spaced" type="text" id="zoom" />
+    <br/>
+    <input type="button" id="searchCoords" value="Search By Coords" />
+    <br/>
+    <hr/>
+    <p class="inline spaced">Address</p>
+    <input class="spaced" type="text" id="address" />
+    <p class="inline spaced">Zoom Level</p>
+    <input class="spaced" type="text" id="zoomLevel" />
+    <br/>
+    <input type="button" id="searchAddress" value="Search By Address" />
+    <br>
+    <br/>
+    <div id="googleMap" style="width:100%;height:10px;display:inline-block;"></div>
+    <div id="googleMaps" style="width:100%;height:500px;display:inline-block;"></div>
+</body>
