@@ -1,0 +1,190 @@
+html, body, h1, h2, h3, h4, h5, h6, p a{
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+body {
+    position: relative;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+p {
+    font-size: 1.2em;
+}
+.navbar-default {
+    border-bottom: none;
+}
+
+.navbar-default .navbar-brand {
+    color: #c71100;
+}
+
+#navbar-name {
+    font-size: 2em;
+    color: #c71100;
+}
+
+.navbar-brand {
+    background: #000;
+    min-width: 100px;
+    font-size: 2em;
+}
+
+.active {
+    background-color: #c71100;
+    color: #fff;
+}
+
+.navbar-default .navbar-nav > li.menu-option > a:hover,
+.navbar-default .navbar-nav > li.menu-option > a:focus {
+    background-color: #c71100;
+    color: #fff;
+}
+
+
+.menu-option {
+    font-size: 1.5em;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    background-color: #c71100;
+    color: #fff;
+}
+
+.intro {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/FallBench.jpg) no-repeat center center;
+    height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #fff;
+    min-width: 100%;
+    padding: 25% 0% 25% 0%;
+    border: none;
+    overflow: hidden;
+}
+
+.main-caption-underline {
+    width: 50%;
+}
+
+.main-caption-underline-small {
+    width: 35%;
+}
+
+.who {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/KeyboardUser.jpg) no-repeat center center;
+    height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #fff;
+    min-width: 100%;
+    padding: 15% 0% 25% 0%;
+    border: none;
+    overflow: hidden;
+ }
+
+.what {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/LamppostSnowing.jpg) no-repeat center center;
+    height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #fff;
+    min-width: 100%;
+    padding: 10% 0% 15% 0%;
+    border: none;
+    overflow: hidden;
+}
+
+.what  p {
+    padding-left: 0em;
+}
+
+.what a {
+    color: #c71100;
+}
+
+.what a:hover {
+    color: #3a939a;
+}
+
+.what a:hover, a:focus {
+    text-decoration: none;
+}
+
+.why {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/NewYork.jpg) no-repeat center center;
+    height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #fff;
+    min-width: 100%;
+    padding: 15% 0% 15% 0%;
+    border: none;
+    overflow: hidden;
+}
+
+.where {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(255, 255, 255, 0.1)), url(../img/FoggyWoods.jpg) no-repeat center center;
+    height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #fff;
+    min-width: 100%;
+    padding: 7% 0% 10% 0%;
+    border: none;
+    overflow: hidden;
+}
+
+.larger-font {
+    font-size: 2.5em;
+}
+
+.contact {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(255, 255, 255, 0.1)), url(../img/TypeWriter.jpg) no-repeat center center;
+    height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #fff;
+    min-width: 100%;
+    padding: 25% 0% 25% 0%;
+    border: none;
+    overflow: hidden;
+}
+
+.ghost-button-full-color-fade-in {
+display: inline-block;
+width: 70%;
+padding: 8px;
+color: #fff;
+background-color: transparent;
+border: 2px solid #fff;
+text-align: center;
+outline: none;
+text-decoration: none;
+transition: color 0.3s ease-out, background-color 0.3s ease-out, border-color 0.3s ease-out;
+}
+
+.ghost-button-full-color-fade-in:hover,
+.ghost-button-full-color-fade-in:active {
+  background-color: #c71100;
+  border-color: transparent;
+  color: #fff;
+  transition: color 0.3s ease-in,
+              background-color 0.3s ease-in,
+              border-color 0.3s ease-in;
+}
