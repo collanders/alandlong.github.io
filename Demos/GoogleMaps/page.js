@@ -36,15 +36,16 @@ $("#searchCoords").on('click', function () {
 
 //Search by converting address or name of location to coordinates
 $("#searchAddress").on('click', function () {
-    var userAddress = $("#address").val();
-    var zoomZoom = $("#zoomLevel").val();
-    map2 = new GoogleMap();
-    map2.Config({
-        "mapType": "ROADMAP",
-        "target": "googleMaps"
-    	})
-        .Zoom(zoomZoom)
-        .GenerateMapFromAddress(userAddress, addresses, addressContent);
+    alert('testing');
+    // var userAddress = $("#address").val();
+    // var zoomZoom = $("#zoomLevel").val();
+    // map2 = new GoogleMap();
+    // map2.Config({
+    //     "mapType": "ROADMAP",
+    //     "target": "googleMaps"
+    // 	})
+    //     .Zoom(zoomZoom)
+    //     .GenerateMapFromAddress(userAddress, addresses, addressContent);
 });
 
 //To show map type updates
