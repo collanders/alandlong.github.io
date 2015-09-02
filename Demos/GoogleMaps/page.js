@@ -7,12 +7,14 @@ var addressContent = [
     '<div class="info_Content"><h3>Dallas</h3><p>Dallas, TX.</p></div>'
 ];
 
+var map1, map2;
+
 //Search by coordinates
 $("#searchCoords").on('click', function () {
     var lat = $("#lat").val();
     var lng = $("#lng").val();
     var zoom = $("#zoom").val();
-    var map1 = new GoogleMap();
+    map1 = new GoogleMap();
     //To configure with chained methods
     map1.Latitude(lat)
         .Longitude(lng)
@@ -39,7 +41,7 @@ $("#searchAddress").on('click', function () {
     alert('testing');
     var userAddress = $("#address").val();
     var zoomZoom = $("#zoomLevel").val();
-    var map2 = new GoogleMap();
+    map2 = new GoogleMap();
     // map2.Config({
     //     "mapType": "ROADMAP",
     //     "target": "googleMaps"
