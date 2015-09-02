@@ -6,6 +6,7 @@ var addressContent = [
     '<div class="info_Content"><h3>LA</h3><p>Los Angeles.</p></div>',
     '<div class="info_Content"><h3>Dallas</h3><p>Dallas, TX.</p></div>'
 ];
+
 //Search by coordinates
 $("#searchCoords").on('click', function () {
     var lat = $("#lat").val();
