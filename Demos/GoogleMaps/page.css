@@ -9,3 +9,7 @@
 .info_Content {
     color:black;
 }
+
+.hide {
+	display: none;
+}
