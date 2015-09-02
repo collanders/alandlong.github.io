@@ -12,7 +12,7 @@ $("#searchCoords").on('click', function () {
     var lat = $("#lat").val();
     var lng = $("#lng").val();
     var zoom = $("#zoom").val();
-    map1 = new GoogleMap();
+    var map1 = new GoogleMap();
     //To configure with chained methods
     map1.Latitude(lat)
         .Longitude(lng)
@@ -37,9 +37,9 @@ $("#searchCoords").on('click', function () {
 //Search by converting address or name of location to coordinates
 $("#searchAddress").on('click', function () {
     alert('testing');
-    // var userAddress = $("#address").val();
-    // var zoomZoom = $("#zoomLevel").val();
-    // map2 = new GoogleMap();
+    var userAddress = $("#address").val();
+    var zoomZoom = $("#zoomLevel").val();
+    var map2 = new GoogleMap();
     // map2.Config({
     //     "mapType": "ROADMAP",
     //     "target": "googleMaps"
