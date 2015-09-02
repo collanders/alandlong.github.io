@@ -42,12 +42,12 @@ $("#searchAddress").on('click', function () {
     var userAddress = $("#address").val();
     var zoomZoom = $("#zoomLevel").val();
     map2 = new GoogleMap();
-    // map2.Config({
-    //     "mapType": "ROADMAP",
-    //     "target": "googleMaps"
-    // 	})
-    //     .Zoom(zoomZoom)
-    //     .GenerateMapFromAddress(userAddress, addresses, addressContent);
+    map2.Config({
+        "mapType": "ROADMAP",
+        "target": "googleMaps"
+    	})
+        .Zoom(zoomZoom)
+        .GenerateMapFromAddress(userAddress, addresses, addressContent);
 });
 
 //To show map type updates
